@@ -191,6 +191,9 @@ header .teaser-wrapper .row {
 
 /********************************* MAIN SECTION ******************************/
 /* HUB */
+main {
+  background-color: #f4f9fd;
+}
 
 main #hub {
   background-color: #f4f9fd;
@@ -319,9 +322,45 @@ main #hub .container .hub-descript .col-detail .fa-check-circle{
 }
 
 /* End of Hub Description */
-
-
 /* END OF HUB */
+
+/* FEATURES */
+
+/* Introduction */
+main #features {
+background-color: #00a9b8;
+color: #ffffff;
+padding: 2% 0%;
+text-align: center;
+
+}
+main #features .container .intro-features >* {
+  padding: 1% 0%;
+}
+
+main #features .container p {
+  color: inherit;
+  margin-bottom: 2%;
+}
+/* End of introduction */
+
+/* Features */
+
+main #features .container .square {
+  padding: 5% 5%;
+  border-right: 1px solid white;
+}
+main #features .container .border{
+  border-bottom: 1px solid white;
+}
+main #features .container .last {
+  border-right: none;
+}
+/* Ensd of Features */
+
+
+
+
 
 
 
