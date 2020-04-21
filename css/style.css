@@ -1,4 +1,4 @@
-/* RESET */
+/******************************* RESET ********************************/
 *{
   margin: 0;
   padding: 0;
@@ -6,11 +6,28 @@
 }
 /* END OF RESET */
 
-/* GENERAL RULES */
+/***************************** GENERAL RULES ***************************/
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: #32495b;
 }
+
+body p {
+  color: #32495b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body li {
+  list-style-type: none;
+}
+
 
 .container {
   width: 1280px;
@@ -26,15 +43,25 @@ body {
   clear: both;
 }
 
-
-
-/* END OF GENERAL RULES */
-
-/* HEADER SECTION */
-/* MENU */
-header {
-  color: #32495b;
+.btn {
+  color: #ffffff;
+  background-color: #fe775a;
+  padding: 12px 10px;
+  border-radius: 5px;
 }
+.fa-check-circle{
+  color: #fe775a;
+}
+
+.col {
+  border-radius: 7px;
+  float: left;
+}
+
+/**************************** END OF GENERAL RULES **************************/
+
+/****************************** HEADER SECTION *******************************/
+/* MENU */
 
 header .menu {
   background: #f4f9fd;
@@ -77,10 +104,225 @@ header .right-menu .fa-search {
 }
 
 header .right-menu .log {
+  color: #fe775a;
   border: 1px solid #fe775a;
   padding: 1% 1%;
   border-radius: 3px;
 }
 /* End of Right Menu */
 /* End of MENU */
-/* END OF HEADER SECTION */
+
+/* NAVIGATION */
+
+header nav .logo{
+  width: 20%;
+  text-align: left;
+  height: 100px;
+  line-height: 100px;
+
+}
+
+header nav .logo img {
+  vertical-align: middle;
+}
+
+header nav .nav-list {
+  height: 100px;
+  width: 80%;
+  text-align: right;
+  margin: auto;
+}
+header nav .nav-list li {
+  display: inline-block;
+  line-height: 100px;
+}
+header nav .nav-list ul>*{
+  margin: 0% 1%;
+}
+header nav .nav-list ul :last-child {
+  margin-right: 0;
+}
+/* END OF NAVIGATION */
+
+/* TEASER  and HORIZONTAL ROW*/
+
+header .teaser-wrapper{
+  padding-top: 3%;
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position:100%;
+  background-size: 100% 100%;
+}
+
+header .teaser-wrapper .container {
+}
+
+header .teaser-wrapper .container>* {
+  width: 35%;
+  margin: 2%;
+}
+
+header .teaser-wrapper h1 {
+  letter-spacing: 5px;
+  padding-top: 3%;
+}
+
+header .teaser-wrapper p {
+  padding: 1% 0%;
+
+}
+header .teaser-wrapper .text-small {
+  font-size: 10px;
+}
+
+
+header .teaser-wrapper .row {
+  background-color: #afebe4;
+  border-top: 2px solid #33475b;
+  border-bottom: 2px solid #33475b;
+  height: 80px;
+  margin-top: 4.6%;
+
+}
+/* END OF TEASER and HORIZONTAL ROW*/
+/************************ END OF HEADER SECTION *****************************/
+
+/********************************* MAIN SECTION ******************************/
+/* HUB */
+
+main #hub {
+  background-color: #f4f9fd;
+}
+main #hub h4 {
+  text-transform: uppercase;
+}
+
+/* Slogan */
+
+main #hub .container .slogan{
+  width: 65%;
+  margin: auto;
+  text-align: center;
+  padding: 5% 0%;
+
+}
+
+main #hub .container .slogan img {
+  width: 20%;
+}
+
+main #hub .container .slogan >* {
+  padding: 1% 0%;
+}
+/* End of Slogan */
+
+/* Crm */
+
+
+main #hub .container .crm {
+  background-color: #ffffff;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 10px gold;
+}
+main #hub .container .left-crm {
+  width: 30%;
+  margin: auto;
+
+}
+main #hub .container .left-crm img{
+  width: 50%;
+}
+main #hub .container .left-crm .btn{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 5% 0%;
+  margin-top: 2%;
+}
+main #hub .container .right-crm {
+  width: 50%;
+}
+
+main #hub .container .right-crm >*{
+  padding: 2% 2%;
+}
+
+main #hub .container .right-crm hr {
+  float: left;
+  width: 65%;
+  margin-top: 2%;
+  margin-left: 6%;
+
+}
+
+main #hub .container .right-crm ul >* {
+  display: inline-block;
+  padding: 0% 1%;
+}
+/* End of Crm */
+
+/* Hub Description */
+main #hub .hub-descript {margin: 5% 0%;
+}
+
+main #hub .container .hub-descript .col-detail{
+  display: inline-block;
+  width: 28%;
+  margin-right: 3%;
+  padding: 0% 3%;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+main #hub .container .hub-descript .col-detail :last-child{
+
+}
+main #hub .container .hub-descript .col-detail img {
+  width: 40%;
+  margin: auto;
+}
+
+main #hub .container .hub-descript .col-detail >* {
+  text-align: center;
+  display: inline-block;
+  padding: 5%;
+
+}
+
+main #hub .container .hub-descript .col-detail hr {
+  padding: 0%;
+  color: inherit;
+}
+
+main #hub .container .hub-descript .col-detail ul i {
+  width: 10px;
+  float: left;
+  text-align: left;
+}
+
+main #hub .container .hub-descript .col-detail ul{
+  padding: 0% 20%;
+}
+
+main #hub .container .hub-descript .col-detail .btn {
+  margin: 5% 0%;
+
+}
+
+main #hub .container .hub-descript .col-detail .fa-check-circle{
+  width: 2px;
+}
+
+/* End of Hub Description */
+
+
+/* END OF HUB */
+
+
+
+/***************************END OF MAIN SECTION ******************************/
