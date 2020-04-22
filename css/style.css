@@ -230,12 +230,15 @@ main #hub .container .slogan >* {
 /* Crm */
 
 
+
+
 main #hub .container .crm {
   background-color: #ffffff;
   height: 300px;
   width: 100%;
   text-align: center;
-  box-shadow: 10px gold;
+  padding-top: 3%;
+  padding-left: 3%;
 }
 main #hub .container .left-crm {
   width: 30%;
@@ -275,36 +278,40 @@ main #hub .container .right-crm ul >* {
 /* End of Crm */
 
 /* Hub Description */
-main #hub .hub-descript {margin: 5% 0%;
+main #hub .hub-descript {
+  margin: 5% 0%;
 }
 
 main #hub .container .hub-descript .col-detail{
-  display: inline-block;
-  width: 28%;
-  margin-right: 3%;
-  padding: 0% 3%;
+  width: 31%;
   text-align: center;
   background-color: #ffffff;
   border-radius: 3px;
+  margin: 0% 1%;
 }
 
-main #hub .container .hub-descript .col-detail :last-child{
 
-}
 main #hub .container .hub-descript .col-detail img {
   width: 40%;
   margin: auto;
 }
 
-main #hub .container .hub-descript .col-detail >* {
-  text-align: center;
-  display: inline-block;
-  padding: 5%;
+main #hub .container .hub-descript .col-detail:last-child img{
+  width: 37%;
+}
 
+main #hub .container .hub-descript .col-detail:nth-child(2) img{
+  width: 47%;
+}
+
+main #hub .container .hub-descript .col-detail >* {
+  padding: 5%;
 }
 
 main #hub .container .hub-descript .col-detail hr {
   padding: 0%;
+  width: 80%;
+  margin: auto;
   color: inherit;
 }
 
@@ -314,6 +321,11 @@ main #hub .container .hub-descript .col-detail ul i {
   text-align: left;
 }
 
+main #hub .container .hub-descript .col-detail ul span {
+  padding-left: 1%;
+  /* margin-left: 0px; */
+
+}
 main #hub .container .hub-descript .col-detail ul{
   padding: 0% 20%;
 }
