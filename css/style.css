@@ -53,11 +53,10 @@ body li {
 .fa-check-circle{
   color: #fe775a;
 }
-
-.col {
-  border-radius: 7px;
-  float: left;
+.shadow {
+  box-shadow: 1px 1px 5px 1px lightgrey;
 }
+
 
 /**************************** END OF GENERAL RULES **************************/
 
