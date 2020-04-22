@@ -46,8 +46,9 @@ body li {
 .btn {
   color: #ffffff;
   background-color: #fe775a;
-  padding: 12px 10px;
+  padding: 16px 10px;
   border-radius: 5px;
+  display: inline-block;
 }
 .fa-check-circle{
   color: #fe775a;
@@ -65,9 +66,9 @@ body li {
 
 header .menu {
   background: #f4f9fd;
-  padding: 1.7% 0%;
+  padding: 1% 0%;
   border-bottom: 1px solid #32495b;
-  height: 3%;
+  height: 2%;
 }
 
 /* Left Menu */
@@ -173,6 +174,11 @@ header .teaser-wrapper p {
   padding: 1% 0%;
 
 }
+
+header .teaser-wrapper .btn {
+  display: inline;
+}
+
 header .teaser-wrapper .text-small {
   font-size: 10px;
 }
@@ -183,7 +189,7 @@ header .teaser-wrapper .row {
   border-top: 2px solid #33475b;
   border-bottom: 2px solid #33475b;
   height: 80px;
-  margin-top: 4.6%;
+  margin-top: 87px;
 
 }
 /* END OF TEASER and HORIZONTAL ROW*/
@@ -325,43 +331,124 @@ main #hub .container .hub-descript .col-detail .fa-check-circle{
 /* END OF HUB */
 
 /* FEATURES */
-
 /* Introduction */
 main #features {
 background-color: #00a9b8;
 color: #ffffff;
 padding: 2% 0%;
+padding-bottom: 7%;
 text-align: center;
 
 }
-main #features .container .intro-features >* {
-  padding: 1% 0%;
+main #features .container .intro-features p {
+  margin-bottom: 3%;
+}
+
+main #features .container .intro-features h2 {
+  margin-bottom: 2%;
+}
+
+main #features .container .square {
+  display: inline-block;
+  border-right: 1px solid white;
+  width: 270px;
+  height: 200px;
+}
+
+}
+main #features .container .square >* {
+
 }
 
 main #features .container p {
   color: inherit;
-  margin-bottom: 2%;
+
+}
+
+main #features .container .square p {
+  font-size: 12px;
+}
+
+main #features .container .square h2 {
+  padding-bottom: 30px;
+  font-size: 40px;
+}
+
+main #features .container .square img {
+  padding: 15px 0px;
 }
 /* End of introduction */
 
 /* Features */
 
-main #features .container .square {
-  padding: 5% 5%;
-  border-right: 1px solid white;
-}
+
+
 main #features .container .border{
   border-bottom: 1px solid white;
 }
 main #features .container .last {
   border-right: none;
 }
-/* Ensd of Features */
+/* End of Features */
 
+/* RECAP */
+/* numbers */
+main #recap .numbers {
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 15%;
+}
 
+main #recap .numbers >* {
+  padding: 10px 0px;
+}
 
+main #recap .numbers h2 {
+  font-size: 40px;
 
+}
+main #recap .numbers p {
+  font-size: 15px;
+}
 
+/* end of numbers */
 
+/* sponsor */
+main #recap .sponsor {
+  margin: 5% 0%;
+  margin-left: 10%;
+  width: 70%
 
+}
+main #recap .sponsor img {
+  width: 20%;
+  padding: 1% 3%;
+  vertical-align: middle;
+}
+/* end of sponsor */
+
+/* Invitation */
+main #recap .invitation{
+  width: 35%;
+}
+
+main #recap .invitation >* {
+  margin-bottom: 40px;
+}
+
+main #recap .woman img{
+  width: 50%;
+  margin-left: 80%;
+}
+
+main #recap .woman {
+
+}
+/* End of Invitation */
+/* END OF RECAP*/
 /***************************END OF MAIN SECTION ******************************/
+
+
+/******************************** FOOTER SECTION ******************************/
+
+/***************************END OF FOOTER SECTION ******************************/
