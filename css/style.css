@@ -295,11 +295,9 @@ main #hub .container .hub-descript .col-detail img {
   width: 40%;
   margin: auto;
 }
-
 main #hub .container .hub-descript .col-detail:last-child img{
   width: 37%;
 }
-
 main #hub .container .hub-descript .col-detail:nth-child(2) img{
   width: 47%;
 }
@@ -314,20 +312,23 @@ main #hub .container .hub-descript .col-detail hr {
   margin: auto;
   color: inherit;
 }
-
-main #hub .container .hub-descript .col-detail ul i {
-  width: 10px;
-  float: left;
+main #hub .container .hub-descript .col-detail ul li {
   text-align: left;
 }
 
 main #hub .container .hub-descript .col-detail ul span {
-  padding-left: 1%;
-  /* margin-left: 0px; */
+  display: inline-block;
+  padding-left: 10%;
+
 
 }
-main #hub .container .hub-descript .col-detail ul{
-  padding: 0% 20%;
+
+
+}
+main #hub .container .hub-descript .col-detail ul i{
+  display: inline-block;
+
+
 }
 
 main #hub .container .hub-descript .col-detail .btn {
@@ -511,12 +512,12 @@ footer .container .menu-wrapper .support-social .btn{
 
 footer .container .menu-wrapper .support-social ul {
   text-align: right;
-  margin-right: -5px;
+  margin-left: 950px;
 }
-footer .container .menu-wrapper .support-social ul li{
+footer .container .menu-wrapper .support-social ul i{
+  padding-left: 20px;
   color: #cbd6e2;
-  display: inline-block;
-  width: 30px;
+  font-size: 17px;
 }
 /* End of Support Button and Socials */
 /* End of Vertical Menu */
