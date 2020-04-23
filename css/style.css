@@ -1,12 +1,12 @@
-/******************************* RESET ********************************/
+/********************************* RESET **************************************/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* END OF RESET */
+/******************************* END OF RESET *********************************/
 
-/***************************** GENERAL RULES ***************************/
+/***************************** GENERAL RULES **********************************/
 body {
   font-family: "Montserrat", sans-serif;
   color: #32495b;
@@ -27,11 +27,11 @@ body li {
   list-style-type: none;
 }
 
-
 .container {
   width: 1280px;
   margin: auto;
 }
+
 .float {
   float: left;
 }
@@ -109,6 +109,7 @@ header .right-menu .log {
 
 /* NAVIGATION */
 
+/* Logo */
 header nav .logo{
   width: 20%;
   text-align: left;
@@ -119,6 +120,8 @@ header nav .logo{
 header nav .logo img {
   vertical-align: middle;
 }
+/* End of Logo */
+
 
 header nav .nav-list {
   height: 100px;
@@ -129,10 +132,9 @@ header nav .nav-list {
 header nav .nav-list li {
   display: inline-block;
   line-height: 100px;
-}
-header nav .nav-list ul>*{
   margin: 0% 1%;
 }
+
 header nav .nav-list ul :last-child {
   margin-right: 0;
 }
@@ -185,10 +187,6 @@ header .teaser-wrapper .row {
 /********************************* MAIN SECTION ******************************/
 /* HUB */
 main {
-  background-color: #f4f9fd;
-}
-
-main #hub {
   background-color: #f4f9fd;
 }
 
