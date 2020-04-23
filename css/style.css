@@ -61,6 +61,10 @@ body li {
 /* MENU */
 
 header .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background: #f4f9fd;
   padding: 1% 0%;
   border-bottom: 1px solid #32495b;
@@ -68,20 +72,24 @@ header .menu {
 
 /* Left Menu */
 header .left-menu {
-  width: 30%;
+  width: 40%;
   padding: 1.3% 0%;
 }
 
+header .left-menu ul li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
 header .left-menu .contact {
-  margin-left: 3%;
-  padding: 0% 3%;
+  padding-left: 10px;
   border-left: 1px solid #899397;
 }
 /* End of Left Menu */
 
 /* Right Menu */
 header .right-menu{
-  width: 70%;
+  width: 60%;
   text-align: right;
 
 }
