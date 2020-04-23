@@ -435,7 +435,7 @@ main #recap .invitation >* {
 /* Woman IMG */
 main #recap .woman img{
   width: 50%;
-  margin-left: 80%;
+  margin-left: 90%;
 }
 /* End of Woman IMG */
 /* END OF RECAP*/
@@ -533,5 +533,23 @@ footer .container .bottom-footer .legal-privacy-policy ul li {
 }
 /* End of Bottom Footer */
 
-
 /***************************END OF FOOTER SECTION ******************************/
+
+/* CHAT */
+.chat {
+  width: 100px;
+  height: 100px;
+  background-color:  rgb(66, 91, 118);
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  border-radius: 50%;
+}
+
+.chat .fa-comments  {
+  font-size: 60px;
+  padding: 15px;
+  color: #ffffff;
+
+}
+/* CHAT */
